@@ -8,8 +8,10 @@ const Summary = () => {
             {personalData.map((data, index) => {
                 return (
                     <div className='summaryItem' id={data.category} key={index}>
-                        <img src={data.icon} alt={data.category} />
-                        <h3>{data.category}</h3>
+                        <div className='category'>
+                            <img src={data.icon} alt={data.category} />
+                            <h3>{data.category}</h3>
+                        </div>
                         <p>{data.score}<span>/100</span></p>
                     </div>
                 )

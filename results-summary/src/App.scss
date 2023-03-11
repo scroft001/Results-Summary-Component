@@ -73,11 +73,49 @@ main{
 }
 
 
+.summary{
+  h2{
+    margin-top: -1rem;
+  }
+}
+
 .summaryItem{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
-  width: 100%;
-  background-color: red;
+  justify-content: space-between;
+  width: 95%;
+  margin: .5rem;
+  border-radius: 5px;
+  padding: 0 .5rem;
+  p{
+    font-weight: 700;
+    span{
+      color: gray;
+    }
+  }
+}
+
+.category{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  img{
+    margin-right: .5rem;
+  }
+}
+
+#Reaction{
+  background-color: hsla(0, 100%, 67%, 0.1);
+  h3{
+    color: var(--light-red);
+  }
+}
+
+#Memory{
+  background-color: hsla(39, 100%, 56%, 0.1);
+  h3{
+    color: var(--orangey-yellow);
+  }
 }
