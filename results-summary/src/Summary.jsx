@@ -16,6 +16,7 @@ const Summary = () => {
                     </div>
                 )
             })}
+            <div className='continue'><p>Continue</p></div>
     </section>
   )
 }
