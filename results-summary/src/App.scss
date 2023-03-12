@@ -145,6 +145,10 @@ main{
   border-radius: 40px;
   margin-left: 1rem;
   margin-top: 1rem;
+  &:hover{
+    background: linear-gradient(var(--light-slate-blue-bg), var(--light-royal-blue-bg));
+    cursor: pointer;
+  }
   p{
     font-size: 1rem;
     color: white;
